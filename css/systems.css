@@ -1,0 +1,82 @@
+/*
+Max Clingroth
+systems.css
+11/3/22
+*/
+
+/*Resets default style*/
+body, header, nav, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Formats images to be responsive*/
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*Formats the body of the webpage*/
+body {
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+    background-color: #e5d2e8;
+}
+
+/*Formats the header*/
+header {
+    float: left;
+    margin: 0 0 1em 1em;
+    width: 35%;
+}
+
+/*Formats the navigation*/
+nav {
+    float: right;
+    margin: 2em 1em 0 0;
+    width: 60%;
+}
+
+/*Formats main body*/
+main {
+    clear: left;
+    margin: 0 1em 2em;
+}
+
+/*Formats the footer*/
+footer {
+    text-align: center;
+    vertical-align: baseline;
+}
+
+/*Formats navigation*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+}
+
+/*Formats navigation area*/
+nav li {
+    display: inline-block;
+}
+
+/*Formats navigation links*/
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 0.5em 1em;
+    color: black;
+    text-decoration: none;
+}
+
+/*Formats social media links*/
+footer ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+footer li {
+    display: inline-block;
+    padding: 0 0.5em;
+}
