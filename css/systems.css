@@ -26,15 +26,15 @@ body {
 /*Formats the header*/
 header {
     float: left;
-    margin: 0 0 1em 1em;
-    width: 35%;
+    margin: 2em 0 0 1em;
+    width: 30%;
 }
 
 /*Formats the navigation*/
 nav {
     float: right;
     margin: 2em 1em 0 0;
-    width: 60%;
+    width: 65%;
 }
 
 /*Formats main body*/
