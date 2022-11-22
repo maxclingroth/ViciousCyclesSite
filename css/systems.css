@@ -20,7 +20,7 @@ img {
 /*Formats the body of the webpage*/
 body {
     font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
-    background-color: #e5d2e8;
+    background-color: #A5A7D5;
 }
 
 /*Formats the header*/
@@ -41,6 +41,7 @@ nav {
 main {
     clear: left;
     margin: 0 1em 2em;
+    padding: .4em;
 }
 
 /*Formats the footer*/
@@ -69,6 +70,53 @@ nav li a {
     color: black;
     text-decoration: none;
 }
+
+nav li a:hover {
+    color: #5000aa;
+}
+
+/*Creates Dropdown menu*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-links {
+    display: none;
+    position: absolute;
+    background-color: #fcfdfc;
+    font-size: .9em;
+}
+
+.dropdown-links a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    padding: .3em;
+    border: 1px solid;
+    border-color: black;
+}
+
+.dropdown:hover .dropdown-links {
+    display: block;
+}
+
+.dropdown:hover li {
+    color: #5000aa;
+}
+
+.dropdown a:hover {
+    background-color: #a6bce1;
+}
+
+/*Formats dropdown*/
+.dropdown li {
+    margin: 0 1em;
+}
+
+/*Formats Forms*/
+
 
 /*Formats social media links*/
 footer ul {
