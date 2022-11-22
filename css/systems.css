@@ -26,7 +26,7 @@ body {
 /*Formats the header*/
 header {
     float: left;
-    margin: 2em 0 0 1em;
+    margin: 2em 0 .8em 1em;
     width: 30%;
 }
 
@@ -116,9 +116,19 @@ nav li a:hover {
 }
 
 /*Formats Forms*/
+input {
+    margin: .3em 0;
+}
 
+#feedback_type {
+    margin: .5em 0;
+}
 
 /*Formats social media links*/
+footer {
+    clear: both;
+}
+
 footer ul {
     list-style-type: none;
     margin: 0;
@@ -127,4 +137,27 @@ footer ul {
 footer li {
     display: inline-block;
     padding: 0 0.5em;
+}
+
+/*Formats sidebar image*/
+.sidebar {
+    float: left;
+    margin-right: 1.5em;
+    margin-bottom: .5em;
+}
+
+/*Formats page headings*/
+.page-titles {
+    font-size: 2em;
+    text-align: center;
+}
+
+/*Formats ebike pricing*/
+.pricing {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.pricing li {
+    margin: .2em 0;
 }
